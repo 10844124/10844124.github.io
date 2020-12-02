@@ -1,0 +1,22 @@
+.outer {
+  width: 8cm;
+  height: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.enter {
+  height: inherit;
+  background: rgba(180, 160, 120, .25);
+}
+
+.bg {
+  width: 0;
+  height: inherit;
+  border-radius: 6px;
+  background: repeating-linear-gradient(-45deg, #cb8a90 25%, #e6b4b9 0, #cb8a90 50%, #cb8a90 0, #e6b4b9 75%, #cb8a90 0);
+  background-size: 10px 10px;
+  -webkit-animation: panoramic 20s linear infinite;
+  animation: panoramic 20s linear infinite;
+}
